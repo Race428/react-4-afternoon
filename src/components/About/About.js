@@ -17,10 +17,10 @@ export default class About extends Component {
         </div>
         <div className='box'>
         <Switch>
-          <Route to='/about/history' component={History} />
-          <Route to='/about/contact' component={Contact}/>
-          <Route to='/about'
-          exact path='/about'
+          <Route path='/about/history' component={History} />
+          <Route path='/about/contact' component={Contact}/>
+          <Route path='/about'
+        
           render= {()=>(
             <div>
               <h1>About the Univeristy</h1>
